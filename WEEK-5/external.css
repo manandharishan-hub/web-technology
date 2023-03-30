@@ -1,0 +1,35 @@
+*{
+    font-family: 'Luckiest Guy';
+}
+body{
+    background: linear-gradient(red,blue,orange,gold,silver) 
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blueviolet;
+    font-size:100px;
+}
+#Alupadey{
+    background-color: blue;
+    color: antiquewhite;
+}
+.p2{
+    background-color: blueviolet;
+    color: black;
+}
+#jennypadey{
+    background-color: black;
+    color:white;
+    font: size 50px;
+}
+#jennypadey:hover{
+    background-color: brown;
+    color: aqua;
+}
+img{
+    width: 600px;
+    height: 400px;
+}
+img[alt]{
+    color: gold;
+}
