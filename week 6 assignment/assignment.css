@@ -1,0 +1,20 @@
+body{
+    background-color: orange; 
+}
+h1{
+    text-align: center;
+}
+.flex{
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+}
+img{
+    width: 350px;
+    height: 437.5px;
+    object-fit: cover;
+}
+p{
+    line-height:1px;
+}

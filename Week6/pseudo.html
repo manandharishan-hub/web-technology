@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes</title>
+    <style>
+        h1{
+            background-color: maroon;
+            color: wheat;
+            font-size: 50px;
+            text-transform: uppercase;
+            word-spacing: 100%;
+        }
+        h1:hover{
+            font-size: 60px;
+        }
+        p{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: black;
+            background-color: goldenrod;
+        }
+        p:hover{
+            color: aqua;
+            background-color: black;
+        }
+        a:visited{
+            color: brown;
+
+        }
+        input:checked{
+            outline: 2px  dashed blue;
+        }
+
+    </style>
+</head>
+<form>
+    <p>Which Programming Language</p>
+    <label >CSS<input name="origin" type="radio" value="CSS" checked></label>
+    <label>Java<input name="origin" type="radio" value="Java" checked></label>
+</form>
+<body>
+    <h1>Pseudo</h1>
+    <p>I am Joseph Mourino</p>
+    <a href="form.html">Check this Link</a>
+
+    
+</body>
+</html>
